@@ -100,4 +100,10 @@ body{
     font-size: 16px;
   }
 
-  /* Medida de pantalla */
+  /* Medida de pantalla texto */
+
+  @media(max-width:768px){
+    #intro{
+      width: 90% !important;
+    }
+  }
