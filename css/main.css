@@ -79,7 +79,19 @@ body{
     max-height: 35rem;
 }
 
-
+.form-register-terminos{
+  width: 90%;
+  background: #658db5;
+  font-size: 12px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 4px;
+  font-family: 'calibri', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  box-sizing: border-box;
+}
 /* Formulario */
 .form-register {
     width: 400px;
@@ -179,4 +191,8 @@ footer p{
     }
   }
 
+
+  .pie-pagina{
+    margin-top: 100px;
+  }
 
