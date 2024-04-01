@@ -3,7 +3,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-color: #7b99b7;
+    background-color: #bbc9d7;
 }
 
 /* Menu */
@@ -16,7 +16,45 @@ body{
 #menu div > button{
     font-size: 16px;
     font-weight: bold;
-    background-color: #7b99b7;
+    background-color: #7ea3c9;
+}
+
+/* Botón alterno */
+.cta{
+  display: inline-block;
+  background-color: #3c49d2;
+  justify-self: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 32px;
+}
+/* Knowledge */
+
+.knowledge{
+  /* Utilizacion de magicpatternt*/
+  color: #fff;
+  background: conic-gradient(from 90deg at 58% 47%, rgba(80, 121, 172, 1), rgba(249, 249, 249, 1));
+  overflow:hidden;
+  }
+
+.knowledge_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: center;
+}
+
+.knowledge_picture{
+  max-width: 500px;
+}
+.knowledge_paragraph{
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.knowledge_img{
+  width: 100%;
+  display: block;
 }
 
 
@@ -100,10 +138,45 @@ body{
     font-size: 16px;
   }
 
+  /* Footer */
+
+
+footer{
+  background:#1b2a4e ;
+  min-height: 100px;
+}
+
+footer p{
+  color:#f3f3f3;
+  text-align: center;
+}
+
+#iconos i{
+  font-size: 26px;
+  padding: 0 10px;
+  color:#f3f3f3
+}
+
+
+
   /* Medida de pantalla texto */
 
   @media(max-width:768px){
     #intro{
       width: 90% !important;
     }
+    .servicio-fila{
+      width: 100% !important;
+      text-align: center;
+    }
   }
+
+  /* Medida para pantallas más pequeñas */
+  @media(max-width: 576px){
+    .icono.wrap{
+      flex-wrap: wrap;
+      justify-content: center !important;
+    }
+  }
+
+

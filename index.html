@@ -7,6 +7,7 @@
     <!-- Implementamos Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <!-- Icono a la pagina -->
     <link rel="shortcut icon" href="./images/logo-modelo.png" type="image/x-icon">
@@ -70,11 +71,11 @@
                 <img src="./images/contenido1.jpg" class="d-block w-100" alt="slide1">
             </div>
 
-            <div class="carousel-item active" data-bs-interval="1000">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="./images/contenido2.jpg" class="d-block w-100" alt="slide2">
             </div>
 
-            <div class="carousel-item active" data-bs-interval="1000">
+            <div class="carousel-item" data-bs-interval="1000">
                 <img src="./images/contenido3.jpg" class="d-block w-100" alt="slide3">
             </div>
         </div>
@@ -95,7 +96,7 @@
 
     <!-- intro -->
     <section class="w-50 mx-auto text-center pt-4" id="intro">
-        <h1 class="p-3 fs-2 border-top border-3">Bienvenido a mi sitio web de <span class="text-primary"> ACOMPAÑAMIENTO
+        <h1 class="p-3 fs-2 border-3">Bienvenido a mi sitio web de <span class="text-primary"> ACOMPAÑAMIENTO
             </span></h1>
         <p class="p-3 fs-4">Soy Caroline Sada, una influencer financiera apasionada por ayudar emprendedores como <span
                 class="text-primary">TÚ</span> a
@@ -106,10 +107,10 @@
     <!-- Servicios -->
 
     <section class="container-fluid">
-        <div class="row w-75 mx-auto">
+        <div class="row w-75 mx-auto my-5 servicio-fila">
             <!-- 1 -->
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="./images/usuarios.svg" class="about_icon" alt="asesorias" width="100" height="100">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./images/usuarios.svg" alt="asesorias" width="100" height="100">
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Asesorias</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
@@ -117,8 +118,8 @@
                 </div>
             </div>
             <!-- 2 -->
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="./images/couchingEmpresarial.svg" class="about_icon" alt="asesorias" width="100" height="100">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./images/couchingEmpresarial.svg" alt="couchingEmpresarial" width="100" height="100">
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Couching empresarial</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
@@ -126,8 +127,8 @@
                 </div>
             </div>
             <!-- 3 -->
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="./images/cursosFinanzas.svg" class="about_icon" alt="asesorias" width="100" height="100">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./images/cursosFinanzas.svg" alt="cursos" width="100" height="100">
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Cursos</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
@@ -135,8 +136,8 @@
                 </div>
             </div>
             <!-- 4 -->
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="./images/videos.svg" class="about_icon" alt="asesorias" width="100" height="100">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="./images/videos.svg" alt="videos" width="100" height="100">
                 <div>
                     <h3 class="fs-5 mt-4 px-4 pb-1">Videos</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
@@ -147,10 +148,10 @@
     </section>
 
     <!-- Datos -->
-    <section class="knowledge">
+    <section class="mx-auto border-top text-center pt-3">
         <div class="knowledge_container container">
-            <div class="knowledege_texts">
-                <h2 class="subtitle">¿Buscas una brújula en el mundo de las finanzas?</h2>
+            <div class="knowledege_texts col-sm-12">
+                <h2 class="subtitle text-primary">¿Buscas una brújula en el mundo de las finanzas?</h2>
                 <p class="knowledge_paragraph">Con su estilo único y su pasión por enseñar, Caroline Sada
                     ha cautivado a miles con sus videos informativos y amigables sobre finanzas personales.
                     Desde consejos sobre cómo ahorrar e invertir inteligentemente hasta estrategias para
@@ -159,11 +160,22 @@
                 <a href="#" class="cta">Comienza</a>
             </div>
             <figure class="knowledge_picture">
-                <img src="/images/logo-modelo.png" alt="" class="knowledge_img">
+                <img src="./images/logo-modelo.png" alt="logo" class="knowledge_img">
             </figure>
         </div>
     </section>
 
+    <!-- Acerca de la empresa -->
+    <!-- <section>
+        <div class="w-50 m-auto text-center knowledge_container container" id="equipo">
+            <h1 class="mb-5 fs-2">¿Buscas una brújula en el mundo de las <span class="text-primary">finanzas</span> ?</h1>
+            <p class="fs-4"> Con su estilo único y su pasión por enseñar, Caroline Sada
+                ha cautivado a miles con sus videos informativos y amigables sobre finanzas personales.
+                Desde consejos sobre cómo ahorrar e invertir inteligentemente hasta estrategias para
+                gestionar de manera efectiva tus ingresos, Caroline te guiará con su experiencia y
+                conocimiento.</p>
+        </div>
+    </section> -->
 
     <!-- Login -->
 
@@ -177,6 +189,15 @@
         <p><a href="#">¿Ya tengo Cuenta?</a></p>
     </section>
 
+
+    <!-- Pie de pagina -->
+    <footer class="w-100 d-flex align-items justify-content-center flex-wrap border-top pt-4">
+        <p class="fs-5 px-3 pt-3">Caroline Sada &copy; Todos Los Derechos Reservados 2024</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
