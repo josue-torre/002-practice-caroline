@@ -101,20 +101,22 @@
     <!-- Servicios -->
 
     <section class="container-fluid">
-        <div class="row w-75 mx-auto my-5 servicio-fila">
+        <div class="row w-75 mx-auto servicio-fila">
             <!-- 1 -->
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
-                <img src="./images/usuarios.svg" alt="asesorias" width="100" height="100">
                 <div>
+                    <img src="./images/usuarios.svg" alt="asesorias" width="100" height="100">
                     <h3 class="fs-5 mt-4 px-4 pb-1">Asesorias</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
                         capacidad de organización vía remota y liderazgo.</p>
                 </div>
             </div>
+
             <!-- 2 -->
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
-                <img src="./images/couchingEmpresarial.svg" alt="couchingEmpresarial" width="100" height="100">
+
                 <div>
+                    <img src="./images/couchingEmpresarial.svg" alt="couchingEmpresarial" width="100" height="100">
                     <h3 class="fs-5 mt-4 px-4 pb-1">Couching empresarial</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
                         capacidad de organización vía remota y liderazgo.</p>
@@ -122,8 +124,8 @@
             </div>
             <!-- 3 -->
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
-                <img src="./images/cursosFinanzas.svg" alt="cursos" width="100" height="100">
                 <div>
+                    <img src="./images/cursosFinanzas.svg" alt="cursos" width="100" height="100">
                     <h3 class="fs-5 mt-4 px-4 pb-1">Cursos</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
                         capacidad de organización vía remota y liderazgo.</p>
@@ -131,8 +133,8 @@
             </div>
             <!-- 4 -->
             <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
-                <img src="./images/videos.svg" alt="videos" width="100" height="100">
                 <div>
+                    <img src="./images/videos.svg" alt="videos" width="100" height="100">
                     <h3 class="fs-5 mt-4 px-4 pb-1">Videos</h3>
                     <p class="px-4">Comunicación, empatía con los proveedores, gestión financiera,
                         capacidad de organización vía remota y liderazgo.</p>
@@ -143,19 +145,19 @@
 
     <!-- Datos -->
     <section class="mx-auto border-top text-center pt-3">
-        <div class="knowledge_container container">
-            <div class="knowledege_texts col-sm-12">
-                <h2 class="subtitle text-primary">¿Buscas una brújula en el mundo de las finanzas?</h2>
-                <p class="knowledge_paragraph">Con su estilo único y su pasión por enseñar, Caroline Sada
-                    ha cautivado a miles con sus videos informativos y amigables sobre finanzas personales.
-                    Desde consejos sobre cómo ahorrar e invertir inteligentemente hasta estrategias para
-                    gestionar de manera efectiva tus ingresos, Caroline te guiará con su experiencia y
-                    conocimiento.</p>
-                <a href="#" class="cta">Comienza</a>
-            </div>
-            <figure class="knowledge_picture">
-                <img src="./images/logo-modelo.png" alt="logo" class="knowledge_img">
-            </figure>
+        <figure class="knowledge_picture">
+            <img src="./images/logo-modelo.png" alt="logo" class="knowledge_img">
+        </figure>
+
+        <div class="w-50 mx-auto text-center pt-4" id="intro"">
+                <h2 class=" subtitle text-primary">¿Buscas una brújula en el mundo de las finanzas?</h2>
+            <p class="p-3 fs-4">Con su estilo único y su pasión por enseñar, Caroline Sada
+                ha cautivado a miles con sus videos informativos y amigables sobre finanzas personales.
+                Desde consejos sobre cómo ahorrar e invertir inteligentemente hasta estrategias para
+                gestionar de manera efectiva tus ingresos, Caroline te guiará con su experiencia y
+                conocimiento.</p>
+            <a href="#" class="cta">Comienza</a>
+        </div>
         </div>
     </section>
 
@@ -167,18 +169,19 @@
             <label for="uname" class="form-label">Nombre de usuario:</label>
             <input type="text" class="form-control" id="uname" placeholder="Nombre" name="uname" required>
             <div class="valid-feedback">Valid.</div>
-            <div class="invalid-feedback">Please fill out this field.</div>
+            <div class="invalid-feedback">Confirme los datos</div>
         </div>
         <div class="mb-3">
             <label for="pwd" class="form-label">Contraseña:</label>
             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
-            <div class="valid-feedback">Valid.</div>
-            <div class="invalid-feedback">Please fill out this field.</div>
+            <div class="valid-feedback">Valido</div>
+            <div class="invalid-feedback">Confirme los datos</div>
         </div>
         <div class="form-check mb-3">
             <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
-            <label class="form-check-label" for="myCheck">Estoy de acuerdo con <a href="./terminos.html">Terminos y Condiciones</a></label>
-            <div class="valid-feedback">Valid.</div>
+            <label class="form-check-label" for="myCheck">Estoy de acuerdo con <a href="./terminos.html">Terminos y
+                    Condiciones</a></label>
+            <div class="valid-feedback">Valido</div>
         </div>
         <input class="botons" type="submit" value="Registrar">
         <p><a href="#">¿Ya tengo Cuenta?</a></p>

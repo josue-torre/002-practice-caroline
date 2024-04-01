@@ -53,8 +53,7 @@ body{
   margin-bottom: 15px;
 }
 .knowledge_img{
-  width: 100%;
-  display: block;
+  width: 50%;
 }
 
 
@@ -173,7 +172,7 @@ footer p{
 
   /* Medida de pantalla texto */
 
-  @media(max-width:768px){
+  @media(max-width:800px){
     #intro{
       width: 90% !important;
     }
@@ -181,10 +180,11 @@ footer p{
       width: 100% !important;
       text-align: center;
     }
+    
   }
 
   /* Medida para pantallas más pequeñas */
-  @media(max-width: 576px){
+  @media(max-width: 600px){
     .icono.wrap{
       flex-wrap: wrap;
       justify-content: center !important;
