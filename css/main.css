@@ -93,8 +93,30 @@ body{
   box-sizing: border-box;
 }
 
-/* Formulario */
 .form-register {
+  width: 90%; /* Cambiado a un porcentaje para que se adapte al ancho de la pantalla */
+  max-width: 450px; /* Establece un ancho máximo para evitar que el formulario se extienda demasiado en pantallas grandes */
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Calibri', sans-serif; /* Cambiado a 'Calibri, sans-serif' para mejorar la compatibilidad de la fuente */
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  box-sizing: border-box;
+}
+
+/* Consulta de medios para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .form-register {
+    width: 80%; /* Ajusta el ancho del formulario para pantallas pequeñas */
+    padding: 20px; /* Reduzca el relleno del formulario para pantallas pequeñas */
+    margin-top: 50px; /* Ajusta el margen superior para pantallas pequeñas */
+  }
+}
+/* Formulario */
+/* .form-register {
     width: 450px;
     background: #24303c;
     padding: 30px;
@@ -106,7 +128,7 @@ body{
     box-shadow: 7px 13px 37px #000;
     box-sizing: border-box;
   }
-  
+   */
   .form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
